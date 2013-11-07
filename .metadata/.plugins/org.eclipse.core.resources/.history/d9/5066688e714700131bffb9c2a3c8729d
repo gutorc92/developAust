@@ -1,0 +1,11 @@
+package models;
+
+public class CreateXML {
+
+	public CreateXML() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+package test.models;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestForm {
+
+	@Test
+	public void testGetXMLElement() {
+		fail("Not yet implemented");
+	}
+
+}

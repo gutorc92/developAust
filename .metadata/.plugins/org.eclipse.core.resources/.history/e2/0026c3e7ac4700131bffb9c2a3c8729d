@@ -1,0 +1,37 @@
+package test.models;
+
+import static org.junit.Assert.*;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import models.Option;
+
+import org.junit.Test;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+public class TestOption {
+
+	@Test
+	public void testGetXMLElement() {
+		Option option = new Option(1, "Sim", 2);
+		
+		DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder docBuilder;
+		try {
+			docBuilder = docFactory.newDocumentBuilder();
+			Document doc = docBuilder.newDocument();
+			Element element = option.getXMLElement(doc, null);
+			System.out.println(element.toString());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			fail();
+		}
+		
+		
+	}
+
+}

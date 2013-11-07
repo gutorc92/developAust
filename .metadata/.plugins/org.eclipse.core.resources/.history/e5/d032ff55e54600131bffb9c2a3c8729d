@@ -1,0 +1,10 @@
+package models;
+
+public class Form {
+	
+	private int id;
+	
+	private String name;
+	
+	
+}

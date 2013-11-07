@@ -1,0 +1,10 @@
+package models;
+
+
+import org.w3c.dom.Element;
+
+public interface XMLElement {
+	
+	public Element getXMLElement(Element child);
+	
+}

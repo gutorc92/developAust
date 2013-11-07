@@ -1,0 +1,12 @@
+package models;
+
+
+import javax.xml.parsers.DocumentBuilder;
+
+import org.w3c.dom.Element;
+
+public interface XMLElement {
+	
+	public Element getXMLElement(Document document, Element child);
+	
+}

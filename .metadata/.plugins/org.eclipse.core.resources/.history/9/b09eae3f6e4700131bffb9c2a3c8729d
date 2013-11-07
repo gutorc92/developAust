@@ -1,0 +1,11 @@
+package models;
+
+
+
+import org.w3c.dom.Document;
+
+public interface XMLElement {
+	
+	public Element getXMLElement(Document document, Element child);
+	
+}

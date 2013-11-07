@@ -1,0 +1,23 @@
+package test.models;
+
+import static org.junit.Assert.*;
+
+import models.Form;
+
+import org.junit.Test;
+
+public class TestForm extends TestXMLElement {
+
+	@Test
+	public void testGetXMLElement() {
+		Form form = new Form(1, "Primeiro teste.");
+		String test = createXML(form);
+	}
+	
+	@Test
+	public void testGetXMLElementOption() {
+		Form form = new Form(1, "Primeiro teste.");
+		String test = createXML(form);
+	}
+
+}

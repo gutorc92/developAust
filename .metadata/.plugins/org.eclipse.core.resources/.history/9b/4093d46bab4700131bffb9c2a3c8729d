@@ -1,0 +1,17 @@
+package test.models;
+
+import static org.junit.Assert.*;
+
+import models.Option;
+
+import org.junit.Test;
+
+public class TestOption {
+
+	@Test
+	public void testGetXMLElement() {
+		Option option = new Option(1, "Sim", 2);
+		
+	}
+
+}

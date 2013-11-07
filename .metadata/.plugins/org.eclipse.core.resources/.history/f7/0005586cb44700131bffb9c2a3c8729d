@@ -1,0 +1,16 @@
+package test.models;
+
+import static org.junit.Assert.*;
+
+import models.Form;
+
+import org.junit.Test;
+
+public class TestForm {
+
+	@Test
+	public void testGetXMLElement() {
+		Form form = new Form(1, "Primeiro teste.");
+	}
+
+}

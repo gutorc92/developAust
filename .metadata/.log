@@ -48,3 +48,415 @@ java.net.SocketTimeoutException: Read timed out
 	at org.eclipse.wst.server.core.internal.InstallableRuntime2.install(InstallableRuntime2.java:238)
 	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite$6.run(TomcatRuntimeComposite.java:227)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 00:13:35.627
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 00:14:52.062
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:25:06.249
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:27:53.538
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:30:28.477
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:31:53.988
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:34:20.452
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:35:33.113
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:39:34.536
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:46:55.844
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:50:16.583
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 16:58:42.040
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:07:16.332
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:12:37.417
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:14:16.870
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:24:38.842
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.help.base 4 4 2013-11-07 17:32:18.509
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2013-11-07 17:32:18.509
+!MESSAGE Help document /org.eclipse.mylyn.help.ui/doc/notices.html cannot be opened.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:33:58.937
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:37:22.703
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:38:31.774
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:39:46.746
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:44:55.513
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:51:28.927
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 17:52:15.806
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-07 18:00:50.715
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-11-08 00:39:09.768
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for ArrayList [in ArrayList.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2013-11-08 00:39:09.770
+!MESSAGE Timed out while retrieving the attached javadoc for ArrayList [in ArrayList.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-08 00:46:48.759
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-08 00:48:09.477
+!MESSAGE Could not publish server configuration: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open).
+!STACK 0
+java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\conf\server.xml (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.XMLUtil.save(XMLUtil.java:345)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.save(Factory.java:129)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:732)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.localizeConfiguration(Tomcat70Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:242)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

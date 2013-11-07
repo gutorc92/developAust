@@ -1,0 +1,17 @@
+package test.models;
+
+import static org.junit.Assert.*;
+
+import models.Question;
+
+import org.junit.Test;
+
+public class TestQuestion extends TestXMLElement {
+
+	@Test
+	public void testGetXMLElement() {
+		Question question = new Question(1, "Voce gosta de Android?");
+		String test = createXML(question);
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestQuestion" project="SeverApp" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="test.models.TestQuestion" time="0.079">
+    <testcase name="testGetXMLElement" classname="test.models.TestQuestion" time="0.069"/>
+    <testcase name="testGetXMLElementOptions" classname="test.models.TestQuestion" time="0.01"/>
+  </testsuite>
+</testrun>

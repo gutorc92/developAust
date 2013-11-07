@@ -1,0 +1,44 @@
+package models;
+
+import java.util.List;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+public class Question implements XMLElement {
+	
+	private int id;
+	
+	private String text;
+	
+	private List<Option> options;
+
+	public Question() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Question(int id, String text, List<Option> options) {
+		super();
+		this.id = id;
+		this.text = text;
+		this.options = options;
+	}
+
+	@Override
+	public Element getXMLElement(Document document, Element child) {
+		// TODO Auto-generated method stub
+		Element element = document.createElement("Question");
+		if(child != null) element.appendChild(child);
+		addAttrElement(document, element);
+		return element;
+	}
+
+	@Override
+	public void addAttrElement(Document document, Element element) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}
