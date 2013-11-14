@@ -34,7 +34,6 @@ public class CreateXML {
 			DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
 			Document doc = docBuilder.newDocument();
 			
-			
 			for(int i = 0; i < elements.size(); i++){
 				XMLElement element = (XMLElement) elements.get(i);
 				doc.appendChild(element.getXMLElement(doc, null));
@@ -43,7 +42,6 @@ public class CreateXML {
 			// write the content into xml file
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 			Transformer transformer = transformerFactory.newTransformer();
-			transformer.setOutputProperty("encoding", "ISO-8859-1");
 			DOMSource source = new DOMSource(doc);
 			Writer writer = new StringWriter();
 			StreamResult result = new StreamResult(writer);

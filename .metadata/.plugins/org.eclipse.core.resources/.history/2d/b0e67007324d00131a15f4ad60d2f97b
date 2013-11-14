@@ -59,7 +59,7 @@ public class GetXML extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		response.setCharacterEncoding("ISO-8859-1");
+		response.setCharacterEncoding("UTF-8");
 		String result = CreateXML.getXML(list); 
 		out.print(result);
 		System.out.println(result);

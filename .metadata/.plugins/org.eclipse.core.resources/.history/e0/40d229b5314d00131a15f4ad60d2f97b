@@ -37,10 +37,10 @@ public class GetXML extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		
+		/*
 		//Option
 		Option option = new Option(1, "Sim", 1);
-		Option option2 = new Option(2, "Nao", 2);
+		Option option2 = new Option(2, "Sim", 2);
 		ArrayList arrayList = new ArrayList();
 		arrayList.add(option);
 		arrayList.add(option2);
@@ -49,9 +49,9 @@ public class GetXML extends HttpServlet {
 		Question question = new Question(1, "Você gosta do Android?", arrayList);
 		ArrayList arrayList2 = new ArrayList<>();
 		arrayList2.add(question);
-		
+		*/
 		//form 
-		Form form = new Form(1, "Teste",arrayList2);
+		Form form = new Form(1, "Teste");
 		//form.setQuestions(arrayList2);
 		ArrayList list = new ArrayList();
 		list.add(form);
@@ -59,7 +59,7 @@ public class GetXML extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		response.setCharacterEncoding("ISO-8859-1");
+		response.setCharacterEncoding("UTF-8");
 		String result = CreateXML.getXML(list); 
 		out.print(result);
 		System.out.println(result);

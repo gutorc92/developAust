@@ -46,7 +46,7 @@ public class GetXML extends HttpServlet {
 		arrayList.add(option2);
 		
 		//Question 
-		Question question = new Question(1, "Você gosta do Android?", arrayList);
+		Question question = new Question(1, "Voce gosta do Android?", arrayList);
 		ArrayList arrayList2 = new ArrayList<>();
 		arrayList2.add(question);
 		
