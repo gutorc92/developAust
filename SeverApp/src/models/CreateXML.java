@@ -2,6 +2,8 @@ package models;
 
 import java.io.File;
 import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.io.Writer;
 import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -24,9 +26,10 @@ public class CreateXML {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public static void getXML(PrintWriter writer, List elements){
+	public static String getXML(List elements){
 		if(document == null) document = new CreateXML();
 		DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+		String reString = null;
 		try {
 			DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
 			Document doc = docBuilder.newDocument();
@@ -40,12 +43,15 @@ public class CreateXML {
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 			Transformer transformer = transformerFactory.newTransformer();
 			DOMSource source = new DOMSource(doc);
+			Writer writer = new StringWriter();
 			StreamResult result = new StreamResult(writer);
 	 
 			// Output to console for testing
 			// StreamResult result = new StreamResult(System.out);
 	 
 			transformer.transform(source, result);
+			
+			reString = writer.toString();
 			
 		} catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block
@@ -54,6 +60,8 @@ public class CreateXML {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		return reString;
 	}
 	
 	

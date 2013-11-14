@@ -15,6 +15,8 @@ public class TestQuestion extends TestXMLElement {
 	public void testGetXMLElement() {
 		Question question = new Question(1, "Voce gosta de Android?");
 		String test = createXML(question);
+		String c = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><Question id=\"1\" text=\"Voce gosta de Android?\"/>";
+		assertEquals(test, c);
 	}
 	
 	@Test
@@ -26,6 +28,8 @@ public class TestQuestion extends TestXMLElement {
 		list.add(option2);
 		Question question = new Question(1, "Voce gosta de Android?",list);
 		String test = createXML(question);
+		assertEquals(test, "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><Question id=\"1\" text=\"Voce gosta de Android?\"><Option id=\"1\" text=\"Sim\" value=\"1\"/><Option id=\"2\" text=\"Não\" value=\"2\"/></Question>");
+		
 	}
 
 }

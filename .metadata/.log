@@ -460,3 +460,6 @@ java.io.IOException: C:\Users\Gustavo\Documents\GitHub\developAust\.metadata\.pl
 	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
 	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2013-11-11 23:53:51.043
+!MESSAGE Usage data upload to http://udc.eclipse.org/upload.php failed with error code 404.

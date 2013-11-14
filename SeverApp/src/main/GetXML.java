@@ -41,7 +41,7 @@ public class GetXML extends HttpServlet {
 		//Option
 		Option option = new Option(1, "Sim", 1);
 		Option option2 = new Option(2, "Sim", 2);
-		ArrayList arrayList = new ArrayList<>();
+		ArrayList arrayList = new ArrayList();
 		arrayList.add(option);
 		arrayList.add(option2);
 		
@@ -59,9 +59,10 @@ public class GetXML extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		CreateXML.getXML(out,list);
 		
-		out.println();
+		String result = CreateXML.getXML(list); 
+		out.print(result);
+		System.out.println(result);
 		
 	}
 

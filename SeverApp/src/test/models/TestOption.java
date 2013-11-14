@@ -24,7 +24,7 @@ public class TestOption extends TestXMLElement {
 	public void testGetXMLElement() {
 		Option option = new Option(1, "Sim", 2);
 		String test = createXML(option);
-		
+		assertEquals(test, "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><Option id=\"1\" text=\"Sim\" value=\"2\"/>");
 		
 	}
 
